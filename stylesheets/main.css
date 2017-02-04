@@ -1,0 +1,37 @@
+#wrapper{
+	width: 428px;
+	height: 150px;
+
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	}
+
+#logo img{
+	width: 272px;
+	height: 92px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#searchbar{
+	width: 428px;
+	height: 44px;
+	position: absolute;
+	bottom: 0;
+}
+
+#searchbar img{
+	width: 32px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	bottom: 6px;
+}
