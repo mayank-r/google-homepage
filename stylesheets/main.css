@@ -1,37 +1,81 @@
-#wrapper{
-	width: 428px;
-	height: 150px;
+html, body{
+	height: 100%;
+	/*background-color: #bbbbbb;*/
+	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+}
 
-	position: relative;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	margin: 0 auto;
+#wrapper{
+	width: 600px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	justify-content: space-around;
+	align-items: center;
+	
 	}
 
 #logo img{
 	width: 272px;
 	height: 92px;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
 }
 
 #searchbar{
-	width: 428px;
+	width: 584px;
 	height: 44px;
-	position: absolute;
-	bottom: 0;
+	position: relative;
 }
 
-#searchbar img{
+#bar{
+	width: 584px;
+	height: 44px;
+	box-shadow: 0 10px 10px -10px gray;
+	font-family: sans-serif;
+	font-size: 20px;
+	border-top-width: 1px;
+	border-left-width: 1px;	
+}
+
+#barimg img{
 	width: 32px;
 	height: 30px;
-	position: absolute;
-	right: 0;
+	position: absolute; 
 	bottom: 6px;
+	right: 6px;
+	/*bad practice, absolute and then pixel by pixel movement, can break.*/
+}
+.buttons{
+	/*width: 400px;*/
+	/*font-size: 20px;*/
+	/*font-family: sans-serif;*/
+	/*color: #757575;*/
+}
+
+#one{
+	/*display: inline-block;*/
+	width: 130px;
+	height: 36px;
+	/*border: 1px solid black;*/
+	background-color: #f2f2f2;
+	color: #757575;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0;
+	border: none;
+}
+
+#two{
+	/*display: inline-block;*/
+	width: 144px;
+	height: 36px;
+	/*border: 1px solid black;*/
+	background-color: #f2f2f2;
+	color: #757575;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0;
+	border: none;
 }
